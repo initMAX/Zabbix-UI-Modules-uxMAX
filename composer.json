@@ -1,0 +1,12 @@
+{
+    "require-dev": {
+        "wikimedia/less.php": "^4.2"
+    },
+    "scripts": {
+        "build": [
+            "@build-css"
+        ],
+        "dev-watch": "./vendor/bin/lessc -w assets/less/uxmax.less assets/css/uxmax.css",
+        "build-css": "./vendor/bin/lessc -x assets/less/uxmax.less > assets/css/uxmax.css"
+    }
+}

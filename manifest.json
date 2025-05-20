@@ -1,0 +1,28 @@
+{
+    "manifest_version": "2",
+    "type": "module",
+    "author": "initMAX s.r.o.",
+    "name": "uxMAX",
+    "description": "The uxMAX module enhances Zabbix by providing advanced UI configuration options that improve clarity and overall user experience.",
+    "url": "https://git.initmax.cz",
+    "id": "uxMAX",
+    "namespace": "uxMAX",
+    "version": "1.0",
+    "assets": {
+      "css": [],
+      "js": []
+    },
+    "actions": {
+      "mod.uxmax.css": {
+        "class": "Css",
+        "layout": "layout.uxmax.css"
+      },
+      "mod.uxmax.form": {
+        "class": "ConfigurationForm",
+        "view": "mod.uxmax.form"
+      },
+      "mod.uxmax.form.update": {
+        "class": "ConfigurationFormUpdate"
+      }
+    }
+  }
