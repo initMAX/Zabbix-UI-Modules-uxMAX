@@ -1,0 +1,18 @@
+01-overview.png:
+  cs: 'Latest data s tagy obarvenými podle pravidel: červené CPU, modrá paměť, fialový disk, oranžová služba HTTP.'
+  en: 'Latest data with tags coloured by rule: red CPU, blue memory, purple disk, orange HTTP service.'
+02-configuration.png:
+  cs: Jedna globální stránka pro barevné tagy a jejich našeptávání, dashboardy, vzhled, zvýraznění syntaxe a branding frontendu.
+  en: One global page for colour tags and their suggestions, dashboards, appearance, syntax highlighting and frontend branding.
+03-latest-data.png:
+  cs: Zakázaná položka zůstává v seznamu šedá a označená D, aby nikdo nehledal data, která se nesbírají.
+  en: A disabled item stays in the list, greyed out and marked D, so nobody hunts for data that is not being collected.
+04-user-preferences.png:
+  cs: 'My uxMAX: uživatel vidí globální pravidla, může je výslovně přepsat a pod nimi přidat vlastní pravidla, pokud to správce povolí.'
+  en: 'My uxMAX: users see the global rules, can explicitly override them and add personal rules below when the administrator allows it.'
+uxMAX.png:
+  cs: uxMAX spojuje několik praktických úprav uživatelského rozhraní do jednoho modulu Zabbixu.
+  en: uxMAX combines multiple practical interface refinements into one Zabbix module.
+widget.png:
+  cs: Modul poskytuje centrální konfigurační stránku pro globální chování rozhraní.
+  en: The module provides a centralized configuration page for global interface behavior.
