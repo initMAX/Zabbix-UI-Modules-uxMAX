@@ -177,7 +177,7 @@ Running the Zabbix frontend in Docker? The **Docker** tab of the Portal installe
 
 ### Easiest way - the guided installer on the Portal
 
-Open the product page, pick your **OS** and **edition**, and copy the ready-made command. FREE is fully public (no login); PRO fills in your token once you sign in. There's a feedback box right there too.
+Open the product page, pick your **OS**, and copy the ready-made command. uxMAX has one FREE edition and installation is public (no login). There is a feedback box right there too.
 
 <div align="center">
 <a href="https://portal.initmax.com/catalog/zabbix-uxmax#how-to-install"><img src="./.readme/screen/portal-installer.png" width="100%" alt="Guided installer on the initMAX Portal - click to open"></a>
@@ -207,7 +207,10 @@ There is no paid edition - everything below is in the one package.
 | Disabled items greyed out in Latest data | ✅ |
 | Regex in native host/template, group, IP/DNS, item/LLD, trigger, problem, graph and proxy filters | ✅ |
 | Queue filters for hosts, proxies, tags, items, LLD and maintenance | ✅ |
-| Query timeline for Telemetry query items and LLD rules | ✅ |
+| Personal saved APM views and per-view record counters (Zabbix 8.0) | ✅ |
+| Vendor and Version in the native template editor (Zabbix 7.0 - 8.0) | ✅ |
+| Latest data history-storage filter with personal inheritance | ✅ |
+| Query timeline for Telemetry query items and LLD rules (Zabbix 8.0) | ✅ |
 | Pagination and mass actions mirrored above long lists | ✅ |
 | Localised into all currently shipped catalogues, with English fallback for newly added strings | ✅ |
 | High availability ready | ✅ |
@@ -224,7 +227,7 @@ There is no paid edition - everything below is in the one package.
 | **Languages** | Follows each user's Zabbix display language; newly added strings fall back to English until their catalogue is updated |
 | **High availability** | Ready. Settings live in the Zabbix database (the module's own configuration, and each user's rules in their profile), so any node of an HA cluster serves the same thing - install the package on each of them. Branding is the one setting Zabbix itself reads from a file on the frontend, so each node writes its own copy from those database settings on request - including a node added later. |
 
-### One package, six Zabbix versions
+### One package, seven Zabbix versions
 
 Zabbix changed its module interface at 6.4 and will not load a module built for the other side of that line, so uxMAX carries **both** builds and the package installs the one your frontend accepts. There is nothing to choose and nothing to redo after a Zabbix upgrade: the package switches builds by itself when the frontend version changes.
 
